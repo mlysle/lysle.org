@@ -22,35 +22,5 @@
 </description>
 	</item>
 	
-	<item>
-		<title>Newtest</title>
-		<link>https://lysle.org/newtest/</link>
-		<pubDate>Mon, 06 Feb 2023 23:54:44 -0700</pubDate>
-		
-		<guid>https://lysle.org/newtest/</guid>
-		<description>&lt;p&gt;This is another test.&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Test</title>
-		<link>https://lysle.org/test/</link>
-		<pubDate>Mon, 06 Feb 2023 23:05:39 -0700</pubDate>
-		
-		<guid>https://lysle.org/test/</guid>
-		<description>&lt;p&gt;This is a test of the auto-updater.&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>About</title>
-		<link>https://lysle.org/about/</link>
-		<pubDate>Mon, 06 Feb 2023 20:59:37 -0700</pubDate>
-		
-		<guid>https://lysle.org/about/</guid>
-		<description>&lt;p&gt;Welcome to my blog.&lt;/p&gt;
-</description>
-	</item>
-	
 	</channel>
 </rss>
