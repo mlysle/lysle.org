@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lysle.org/hugo/</loc>
+    <lastmod>2023-02-07T00:13:30-07:00</lastmod>
+  </url><url>
+    <loc>https://lysle.org/newtest/</loc>
+    <lastmod>2023-02-06T23:54:44-07:00</lastmod>
+  </url><url>
+    <loc>https://lysle.org/test/</loc>
+    <lastmod>2023-02-06T23:05:39-07:00</lastmod>
+  </url><url>
+    <loc>https://lysle.org/about/</loc>
+    <lastmod>2023-02-06T20:59:37-07:00</lastmod>
+  </url><url>
+    <loc>https://lysle.org/categories/</loc>
+  </url><url>
+    <loc>https://lysle.org/</loc>
+  </url><url>
+    <loc>https://lysle.org/tags/</loc>
+  </url>
+</urlset>

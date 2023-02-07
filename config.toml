@@ -1,0 +1,4 @@
+baseURL = 'https://lysle.org'
+languageCode = 'en-us'
+title = "Maxwell's Laboratory"
+theme = 'lugo'
