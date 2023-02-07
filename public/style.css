@@ -1,7 +1,20 @@
+:root{
+	--primary-color: #cc6666;
+	--primary-bg-color: #1b1b23;
+}
+
 body {
-	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc ;
+	/*font-family: sans-serif ;*/
+	/*background: #110000 ;*/
+	/*color: #ccc ;*/
+  font-family: Roboto Slab, Georgia, Serif;
+	color: #ebdbb2;
+	line-height: 1.2;
+	font-size: 18pt;
+	padding: 0px 120px 0px 120px;
+  margin: 0px;
+	max-width:100%;
+	margin: 0 auto;
 }
 
 main {
