@@ -1,2 +1,6 @@
+# hugo lock
 /.hugo_build.lock
-/content/drafts
+# auto-generated hugo files
+/content/drafts/
+/public/
+/resources/_gen/
