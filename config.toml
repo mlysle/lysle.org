@@ -1,4 +1,4 @@
-baseURL = 'https://lysle.org'
+baseURL = 'https://blog.lysle.org'
 languageCode = 'en-us'
 title = "Maxwell's Laboratory"
 theme = 'blog-theme'
