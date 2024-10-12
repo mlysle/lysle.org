@@ -2,5 +2,4 @@
 /.hugo_build.lock
 # auto-generated hugo files
 /content/drafts/
-/public/
 /resources/_gen/
