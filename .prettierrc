@@ -1,14 +1,3 @@
 {
-  "plugins": [
-    "prettier-plugin-go-template",
-    "@awmottaz/prettier-plugin-void-html"
-  ],
-  "overrides": [
-    {
-      "files": ["*.html"],
-      "options": {
-        "parser": "go-template"
-      }
-    }
-  ]
+  "plugins": ["@awmottaz/prettier-plugin-void-html"]
 }
