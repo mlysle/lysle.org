@@ -3,3 +3,4 @@
 # auto-generated hugo files
 /content/drafts/
 /resources/_gen/
+node_modules/
