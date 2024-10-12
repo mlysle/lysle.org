@@ -1,4 +1,51 @@
-baseURL = 'https://blog.lysle.org'
-languageCode = 'en-us'
+baseURL = "https://blog.lysle.org/"
+languageCode = "en-us"
 title = "Maxwell's Laboratory"
-theme = 'blog-theme'
+theme = "blog-theme"
+enableGitInfo = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    pageRef = "/pages/about"
+    weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+	
+[params]
+  #list items
+  datesinlist = true
+
+	#LateX math
+  math = false
+
+[params.author]
+  name = "mlysle"
+  email = "max@lysle.org"
+  bio = "Hi, I'm Maxwell. Website under construction!"
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', '^git']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
